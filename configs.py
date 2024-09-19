@@ -6,13 +6,13 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("API_ID", "20389440"))
-    API_HASH = getenv("API_HASH", "a1a06a18eb9153e9dbd447cfd5da2457")
-    BOT_TOKEN = getenv("BOT_TOKEN", "6564513574:AAGDqUaEmeu0m4DjLDetNc4nooVTWYT7Fzo")
-    FSUB = getenv("FSUB", "VJ_Botz")
+    API_ID = int(getenv("API_ID", "29346781"))
+    API_HASH = getenv("API_HASH", "75fb004873db1864a09c71cd1307bfa8")
+    BOT_TOKEN = getenv("BOT_TOKEN", "7373116422:AAG55hLxYnE4eMTbYu_xa93aqywF59JaBYo")
+    FSUB = getenv("FSUB", "SihagBots")
     CHID = int(getenv("CHID", "-1001623633000"))
     SUDO = list(map(int, getenv("SUDO", "6168162777").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Sihagbots:585xpplus@cluster0.7o52a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
 
